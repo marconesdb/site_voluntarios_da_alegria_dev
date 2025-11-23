@@ -320,7 +320,7 @@ const Transparency = () => {
 
           {/* Chart Area */}
           <div className="bg-slate-50 p-8 rounded-3xl shadow-inner border border-slate-200">
-            <h3 className="text-xl font-bold text-gray-800 mb-6 text-center">Distribuição de Recursos (2024)</h3>
+            <h3 className="text-xl font-bold text-gray-800 mb-6 text-center">Distribuição de Recursos (2025)</h3>
             <div className="h-[300px] w-full">
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
@@ -409,10 +409,20 @@ const DonationSection = () => {
             </div>
             <h3 className="text-2xl font-bold mb-2">Seja Voluntário</h3>
             <p className="text-amber-100 mb-6">Doe seu tempo e talento na costura, no bazar ou na organização.</p>
-            <button className="bg-white text-amber-600 px-8 py-3 rounded-full font-bold hover:bg-amber-50 transition-colors w-full">
+            {/*<button className="bg-white text-amber-600 px-8 py-3 rounded-full font-bold hover:bg-amber-50 transition-colors w-full">
               Entre em contato agora.
                
-            </button>
+            </button>*/}
+
+              <a
+                href="https://wa.me/5538999138667?text=Olá, gostaria de mais informações sobre como efetuar doações! Como posso judar o grupo ?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-amber-600 px-8 py-3 rounded-full font-bold hover:bg-amber-50 transition-colors w-full inline-block text-center"
+              >
+                Entre em contato agora.
+              </a>
+
           </div>
         </div>
       </div>
@@ -469,7 +479,7 @@ const Footer = () => (
             </li>
             <li className="flex items-center gap-3">
               <Phone className="text-amber-500 flex-shrink-0" size={18} />
-              <span>(00) 00000-0000</span>
+              <span>(38) 99913-8667</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="text-amber-500 flex-shrink-0" size={18} />
